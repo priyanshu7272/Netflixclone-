@@ -1,0 +1,525 @@
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-family: 'helvetica neve', helvetica, 'Ubuntu', sans-serif;
+    
+}
+#home{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(37, 36, 36, 0.8)),url(https://assets.nflxext.com/ffe/siteui/vlv3/d282a426-b01a-424c-9b83-2c2445e4b61a/f7eb3bc2-2867-4c7e-94f8-e62ec11175cd/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    
+}
+
+
+.container{
+ background-color: transparent;
+ display: flex;
+ height: 8vh;
+ flex-direction: row;
+ padding-top: 1%; 
+ padding-left: 9vw;
+ padding-right: 4vw;
+justify-content: space-between;
+ align-items: center;
+
+
+}
+
+
+.container img{
+    width: 14%;
+    height: 5vh;
+    padding: 10px 40px 10px 40px;
+    
+}
+
+.btn{
+    
+     padding: 2px 3px 16px 3px;
+    justify-content: left;   
+    height: 2vh; 
+    border: 1px solid white;
+    width: fit-content;
+    border-radius: 6px;
+    
+    float: left;
+    
+}
+.lan-btn1 svg{
+    color: white;
+    height: 20px;
+    width: fit-content;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding: 1px 2px 3px 4px;
+    border-radius: 5px;
+
+}
+
+.lan-btn1 select{
+    padding: 6px 15px 7px 41px; 
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+.container button{
+    padding: 8px 20px 8px 10px;
+    background-color: red;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    width:fit-content;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.mainheader h1{
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    position: relative;
+    margin-top: 180px;
+    justify-content: center;
+   
+}
+.mainheader h2{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+
+}
+.maincontact p{
+    color: white;
+    text-align: center;
+    font-size:1.25rem;
+   
+}
+
+.maincontact input{
+   
+    height: 6vh;
+    float: left;
+    width: 500px;
+    text-align: left;
+    margin-left: 350px;
+    background-color: transparent;
+    
+}
+
+
+.maincontact button{
+    background-color: red;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 25px 30px 25px;
+    cursor: pointer;
+}
+
+
+.card-0,
+.card-1,
+.card-2,
+.card-3{
+    border-top: 8px solid rgb(69, 69, 69);
+    padding: 50px;
+}
+
+/* enjoy page css */
+
+
+.card-0{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-0{
+    padding-left: 80px;
+}
+
+.desc-0 h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+    color: white;
+}
+
+.desc-0 h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white    ;
+}
+
+.card-0 video{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.card-0 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+/* download page css*/
+
+
+
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px ;
+}
+
+.desc-1{
+    padding-left: 10px;
+
+}
+.card-1 img{
+    width: 80%;
+    margin-left: 100px;
+}
+
+.desc-1 h1{
+    color: white;
+    font-size: 3rem;
+    
+    padding-left: 0;
+
+}
+
+.desc-1 h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+}
+
+/* watch page css */
+
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+}
+
+.desc-2{
+    padding-left:100px;
+}
+
+.desc-2 h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+    color: white;
+}
+
+.desc-2 h4{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+
+}
+
+.card-2 video{
+    position: relative;
+    width: 64%;
+    height: 64%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index:-1;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.card-2 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+/* kids pages css */
+
+
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    text-align: left;
+    padding: 25px 45px 50px 1px;
+}
+
+.desc-3{
+    padding-left: px;
+}
+
+.desc-3 h1{
+    color: white;
+    font-size: 3rem;
+    padding: 0.9rem;
+    padding-left: 0;
+    margin: 0%;
+    
+}
+
+.desc-3 p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: white;
+   margin: 0%;
+    
+
+}
+
+.card-3 img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+hr{
+    border-top: 8px solid rgb(69, 69, 69);
+    margin-top: 50px;
+    
+}
+
+/* Frequently Asked Questions  page css */
+
+
+.que-list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.que-list h1{
+    color: white;
+    font-size: 3rem;
+    padding: 3rem 0 0 0;
+   
+}
+
+.tittle{
+    background-color: #303030;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+   
+
+
+.tittle:hover{
+    background: #5d5c5c;
+    
+}
+
+
+.icon{
+    width: 20px;
+    position: relative;
+}
+
+.icon::before , .icon::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background:#fff;
+    top: -1.5px;
+}
+
+
+
+.icon::after{
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+
+.text{
+    background: #303030;
+   line-height: 35px;
+   margin: 3px 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 0;
+    opacity: 0;
+    
+}
+.que-item:target .text{
+    opacity: 1;
+    height: auto;
+    padding: 20px 30px;
+    margin: auto;
+    border-top: 2px solid #000;
+    margin-bottom: 6px;
+}
+
+
+.que-item:target .icon::after{
+    transform: rotate(45deg);
+    transition: 0.5s linear;
+}
+.que-item:target .icon::before{
+    transform: rotate(-45deg);
+}
+
+
+
+
+.que-form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.que-form p{
+    color: white;
+    font-size: 1.4rem;
+}
+.que-form input{
+    
+    height: 6vh;
+    float: left;
+    width: 450px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+
+
+.que-form button{
+    background-color: red;
+    height: 6.3vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 25px 30px 25px;
+    cursor: pointer;
+}
+
+.footer-list{
+    color: white;
+    width: 100%;
+    height: auto;
+   
+
+}
+
+.footer-list  .que-call{
+   margin-top: 100px;
+   margin-left: 170px;
+
+   
+} 
+.call a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.listitem{
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 130px;
+   
+}
+
+
+
+.listitem li{
+    cursor: pointer;
+    position: relative;
+    width :fit-content;
+    
+    margin-bottom: 20px;
+    text-decoration:underline;
+    list-style: none;
+    font-family:'Ubuntu', sans-serif;
+
+} 
+
+.lan-btn{
+    border: 1px solid white;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+
+.lan-icon svg{
+    height: 20px;
+    width: fit-content;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 2px;
+   margin-left: 15px;
+
+   
+}
+
+.lan-btn select{
+    padding: 6px 5px 6px 35px; 
+    background: transparent;
+    color: #fff;
+ 
+   
+}
+
+.lastpara{
+    margin-top: 30px;
+    margin-left: 170px;
+    font-family:'Ubuntu', sans-serif;;
+}
+
+
